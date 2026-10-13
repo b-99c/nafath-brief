@@ -26,9 +26,21 @@ Resource: The Mobile Application Security Verification Standard - OWASP - https:
 
 ## Networking
 
+A BGP route hijack happens when a network advertizes that it can deliver traffic to the IP address range. Other networks could send traffic over the wrong network which could be monitored or disrupted. RPKI helps by letting networks verify whether the network announcing the route is allowed to originate it. But RPKI does verify the origination of the route, it won't verify every network that traffic passes through or stop every kind of routing attack.
+
+Resource: RFC 6811 - BGP Prefix Origin Validation - https://www.rfc-editor.org/rfc/rfc6811
+
 ## Cybersecurity
 
+Log4Shell (CVE-2021-44228) was a zero-day vulnerability in the Apache Log4j logging library. Specially crafted data could allow a vulnerable system to execute arbitrary code remotely on vulnerable versions. It was a serious vulnerability because Log4j was used everyplace and the attack was so easy. Affected systems were identified and Log4j was upgraded to a patched version in response. “Temporary workarounds were no substitute for the update.
+
+Resource: Mitigating Log4Shell and Other Log4j-Related Vulnerabilities - CISA - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+
 ## Data
+
+What is a software bill of materials (SBOM)? A software bill of materials (SBOM) is a list of the components that make up a software product. It lets the organization see what its software depends on and to identify components that might need some TLC. The minimum information to be provided shall include the supplier name, the component name, the component version, other identifiers, dependency relationships, the SBOM author and the date and time it was created.
+
+Resource: The Minimum Elements for a Software Bill of Materials (SBOM) - NTIA - https://www.ntia.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
 
 ## Misconception in My Track
 
