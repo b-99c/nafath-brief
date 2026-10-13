@@ -44,4 +44,8 @@ Resource: The Minimum Elements for a Software Bill of Materials (SBOM) - NTIA - 
 
 ## Misconception in My Track
 
+Another misconception in software development is if the code is private it is okay to store passwords and API keys directly in the code . But code can be shared, leaked, or copied accidentally and this exposes these secrets. In the Twelve-Factor App “Config” section it says, “Config that changes between deploys should be stored in the environment, not in the code. Configuration changes are possible, and the risk of leakage of sensitive information is reduced.”
+
 ## Open Question
+
+How can a development team make sure that passwords and API keys are never accidentally included in code or shared through version control?
