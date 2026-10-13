@@ -8,9 +8,21 @@ Interoperability of software, mobile apps, data, artificial intelligence systems
 
 ## Software
 
+Software applications require settings, such as access keys and passwords. The application may be running on the developer’s computer and server and settings may differ. They should be kept outside the code so that the application can read them at start up time. This makes settings easier to change and reduces the chances of accidentally exposing secrets if code files are shared or published.
+
+Resource: Config - The Twelve-Factor App - https://12factor.net/config
+
 ## AI
 
+Machine learning systems are susceptible to various types of attacks. Poisoning attack is type of attack where the attacker manipulates or injects the malicious data in the training data of the model. This can lead to the model learning spurious patterns. In an evasion attack the attacker manipulates the input data after the model is trained with the aim of getting it to return an incorrect result. The key difference is the time of the attack: Poisoning is performed at the training phase, while evasion is performed at the model deployment phase.
+
+Resource: Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - NIST - https://csrc.nist.gov/pubs/ai/100/2/e2025/final
+
 ## Mobile
+
+OWASP Mobile Application Security Verification Standard (MASVS) A mobile app security requirements standard. This includes things like storing data, encrypting it, logging in, and communicating over a network. Its controls are used as a checklist by developers and testers to review an app and find security weaknesses. They can look at the application's files and test it as it is running. This is to help determine whether the app is protecting users and their information.
+
+Resource: The Mobile Application Security Verification Standard - OWASP - https://mas.owasp.org/MASVS/03-Using_the_MASVS/
 
 ## Networking
 
